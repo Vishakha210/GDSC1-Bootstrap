@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDSC-Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body >
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Dialect</a></li>
+                      <li><a class="dropdown-item" href="#">Food</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main class="my-5">
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-7">
+                    <img src="img1.jpeg" alt="image" class="img-fluid" width="700px" height="300px">
+                </div>
+                <div class="col-md-5">
+                    <h1 class="mt-4">Habibi!!<br>Welcome To Dubai</h1>
+                    <p class="mt-4"><strong> Located in the United Arab Emirates (UAE), is a bustling metropolis known for its towering skyscrapers, luxurious shopping malls, and vibrant culture. With a population of over 3 million people, it is the largest city in the UAE and serves as a major global hub for business, tourism, and finance.</strong></p>
+                    <button type="button" class="btn btn-primary mt-3">Call to Action</button>
+                </div>
+            </div>
+            <div class="row my-5">
+                <div class="col">
+                    <div class="bg-secondary py-3 my-3 text-white card text-center">
+                        <div class="card-body ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia perferendis deserunt, in blanditiis amet aspernatur nemo iusto deleniti reiciendis unde quibusdam, dolorem eaque quae. Ex accusantium veritatis praesentium architecto magnam.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-group">
+            <div class="card mx-3">
+              <img src="img1.webp" class="card-img-top" alt="image of Burj Khalifa" height="300px">
+              <div class="card-body">
+                <h5 class="card-title">Burj Khalifa</h5>
+                <p class="card-text">The Burj Khalifa, located in Dubai, United Arab Emirates, is the tallest building in the world, standing at a staggering height of 828 meters (2,717 feet). Designed by the renowned architect Adrian Smith.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card mx-3">
+              <img src="img1.jpg" class="card-img-top" alt="image of Burj Al Arab" height="300px">
+              <div class="card-body">
+                <h5 class="card-title">Burj Al Arab</h5>
+                <p class="card-text">The Burj Al Arab (Arabic: برج العرب, lit. 'Arab Tower') is a luxury hotel in Dubai, United Arab Emirates.It is developed and managed by Jumeirah.It is one of the tallest hotels and only 7 start hotel in the world.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card mx-3">
+              <img src="img3.jpeg" class="card-img-top" alt="image of The Dubai Fountain" height="300px">
+              <div class="card-body">
+                <h5 class="card-title">The Dubai Fountain</h5>
+                <p class="card-text">A captivating water, music and light spectacle in Downtown Dubai, The Dubai Fountain is the world’s tallest performing fountain. At over 900 ft in length – equivalent to over two football pitches.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+          <div class="container my-3">
+            <div class="text-center">
+                <h2>Get in Touch</h2>
+                <p class="lead" >Any Questions</p>
+                <div class="row justify-content-center my-5">
+                    <div class="col-lg-6">
+                        <form action="">
+                            <input type="email" id="email" placeholder="Email" class="form-control my-3">
+                            <input type="email" id="email" placeholder="Name" class="form-control my-3">
+                            <select name="subject" id="subject" class="form-select my-3">
+                                <option value="DAS">Travel Ticket</option>
+                                <option value="DAS">Food Services</option>
+                                <option value="DAS">Climate</option>
+                            </select>
+                            <textarea name="query" id="query" cols="30" rows="7" placeholder="Write your message" class="form-control my-3"></textarea>
+                            <div class="text-center">
+                                <button class="btn btn-primary my-3">Summit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+    </main>
+
+    <footer class="footer mt-auto py-3 bg-dark">
+        <div class="container">
+            <span class="text-muted">CopyRight &copy; 2021</span>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
